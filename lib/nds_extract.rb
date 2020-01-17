@@ -84,9 +84,7 @@ def gross_per_studio(collection)
     while cntr1 < collection.length do
       if collection[cntr1][:studio] == studios[stdos]
         sum_of_wwg += collection[cntr1][:worldwide_gross]
-        pp sum_of_wwg
       end
-      
       cntr1 += 1
     end
     studios_wwg.store(studios[stdos], sum_of_wwg)
