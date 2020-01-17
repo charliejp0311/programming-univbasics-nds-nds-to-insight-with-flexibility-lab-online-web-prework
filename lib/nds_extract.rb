@@ -89,7 +89,7 @@ def gross_per_studio(collection)
       cntrl += 1
     end
     studios_wwg.store(studios[stdos], sum_of_wwg)
-    p studios_wwg
+    pp studios_wwg
     stdos += 1 
   end 
   studios_wwg
